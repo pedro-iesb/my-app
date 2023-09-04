@@ -47,14 +47,14 @@ const BiscoitoDaSorte = () => {
                     title="Quebrar Biscoito"
                     onPress={quebrarBiscoito}
                     disabled={bloquearBotao}
-                    color="orange" 
+                    color="green" 
                     style={styles.botao}
                 />
                 <Button
                     title="Reiniciar Biscoito"
                     onPress={reiniciarBiscoito}
                     disabled={!bloquearBotao}
-                    color="orange" 
+                    color="green" 
                     style={styles.botao}
                 />
             </View>
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         fontSize: 18,
         textAlign: 'center',
-        color: 'orange',
+        color: 'green',
     },
     button: {
         borderWidth: 2, // Espessura da borda
