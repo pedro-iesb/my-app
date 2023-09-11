@@ -31,6 +31,7 @@ export default function App() {
         email='Allison1970@yahoo.com'
         telefone='209-840-6021'
       />
+      Deus
       {/* <Botao/> */}
       {/* <Contador/> */}
 
