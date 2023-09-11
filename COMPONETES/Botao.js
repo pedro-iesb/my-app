@@ -6,7 +6,7 @@ const Botao = () => {
 
     function executarBotao2() {
         alert('Botao 2')
-    }
+    }     
 
     return (
         <View>

@@ -9,6 +9,8 @@ import Contador from './COMPONETES/Contador';
 import DigiteSeuNome from './COMPONETES/DigiteSeuNome';
 import Pai from './cominica-direta/Pai';
 import BiscoitoDaSorte from './COMPONETES/BiscoitoDaSorte';
+import Profile from './COMPONETES/Profile';
+
 
 
 
@@ -21,8 +23,14 @@ export default function App() {
 
       {/* <DigiteSeuNome/> */}
       {/* <Pai/> */}
-      <BiscoitoDaSorte/>
-
+      {/* <BiscoitoDaSorte/>  */}
+      <Profile
+        imgUri='https://www.fakepersongenerator.com/Face/female/female20161025036506073.jpg'
+        genero='Feminino'
+        nome='Allison K Murphy'
+        email='Allison1970@yahoo.com'
+        telefone='209-840-6021'
+      />
       {/* <Botao/> */}
       {/* <Contador/> */}
 
@@ -41,7 +49,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'green',
+    backgroundColor: 'pink',
     alignItems: 'center',
     justifyContent: 'center',
   },
