@@ -26,7 +26,7 @@ export default function App() {
       {/* <Pai/> */}
       {/* <BiscoitoDaSorte/>  */}
       {/* <Profile/> */}
-      <Cronometro/>
+      {/* <Cronometro/> */}
       {/* <Botao/> */}
       {/* <Contador/> */}
 
